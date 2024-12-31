@@ -8,6 +8,25 @@
 </head>
 <body>
     <h1>SNCF</h1>
+    
+    <h2>Galerie d'images</h2>
+    <img src="../Image/train-8446249_1280(1).jpg" alt="Image d'un train" width="300">
+    <img src="../Image/train-8446249_1280(1).jpg" alt="Image d'un train" width="300">
+    <img src="../Image/train-8446249_1280(1).jpg" alt="Image d'un train" width="300">
+    <img src="../Image/train-8446249_1280(1).jpg" alt="Image d'un train" width="300">
+    
+    <form action="/submit_form" method="post">
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        
+        <input type="submit" value="Envoyer">
+    </form>
     <button><a href="../index.html">retour</a></button>
 </body>
 </html>
